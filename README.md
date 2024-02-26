@@ -6,6 +6,7 @@
 - fzf
 - delta
 - CaskaydiaCove Nerd Font
+- karabiner elements
 
 ## Notes
 
