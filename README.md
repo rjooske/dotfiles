@@ -5,6 +5,7 @@
 - eza
 - fzf
 - delta
+- CaskaydiaCove Nerd Font
 
 ## Notes
 
