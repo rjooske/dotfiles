@@ -62,6 +62,10 @@ export PATH="$HOME/.cabal/bin:$PATH"
 export PATH="$HOME/go/bin:$PATH"
 export PATH="$HOME/code/atcoder/tools/bin:$PATH"
 
+# The directory contains python3 and pip3 which shouldn't take precedence over
+# the normally installed ones
+export PATH="$PATH:$HOME/.platformio/penv/bin"
+
 function atcstart() {
     atcinit "$1" <(pbpaste) || return 1
     cd "$1"
